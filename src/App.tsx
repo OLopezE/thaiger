@@ -1,8 +1,5 @@
-import { useState } from 'react'
-
-import viteLogo from '/assets/logos/vite.svg'
 import './App.css'
-
+// @ts-ignore
 import { Menu } from './js/views';
 
 const App = () => <Menu />;
