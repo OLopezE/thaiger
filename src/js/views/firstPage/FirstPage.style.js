@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 const FirstPageWrapper = styled.section`
   min-height: 100svh;
-  padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  padding-top: 4rem;
 
   > img {
     width: 100%;
