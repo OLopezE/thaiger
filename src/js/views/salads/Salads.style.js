@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-const EntreesWrapper = styled.section`
-  background: rgb(236,236,214);
-  min-height: 100svh;
+const SaladsWrapper = styled.section`
+  padding: 10rem 1rem;
   display: flex;
   flex-direction: column;
-  padding: 20rem 1rem;
+  background-color: #d4cdc0;
+  min-height: 100svh;
   align-items: center;
   gap: 1rem;
 
@@ -15,9 +15,9 @@ const EntreesWrapper = styled.section`
   }
 `;
 
-const EntreesGrid = styled.div`
+const SaladsGrid = styled.div`
   display: grid;
   gap: 2rem;
 `;
 
-export { EntreesWrapper, EntreesGrid };
+export { SaladsWrapper, SaladsGrid }

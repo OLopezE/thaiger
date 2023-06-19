@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
 
-import FirstPage from '../firstPage';
-import Entrees from '../entrees/Entrees';
+import { FirstPage, Entrees, Salads } from '../../views';
+import { Transitioner } from '../../components';
 
 const Menu = () => {
   return (
     <Fragment>
       <FirstPage />
       <Entrees />
+      <Transitioner />
+      <Salads />
     </Fragment>
   )
 }

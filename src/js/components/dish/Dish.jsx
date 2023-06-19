@@ -1,12 +1,12 @@
-import React from 'react'
+import { DishWrapper } from "./Dish.style"
 
 const Dish = ({ dish }) => {
   return (
-    <div>
+    <DishWrapper>
       <h3>{dish.name}</h3>
       <p>{dish.description}</p>
       <p>{dish.price}</p>
-    </div>
+    </DishWrapper>
   )
 }
 
