@@ -1,7 +1,12 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css'
 
-import { Menu } from './js/views';
+import { Menu, Prototype } from './js/views';
 
-const App = () => <Menu />;
+const App = () => (
+  <BrowserRouter>
+    <Prototype />
+  </BrowserRouter>
+);
 
 export default App
