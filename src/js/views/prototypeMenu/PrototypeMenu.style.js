@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 const MainMenuLayout = styled.div`
   display: flex;
-  padding: 1rem;
+  padding: 0 1rem;
   flex-direction: column;
   justify-content: center;
   height: 100%;
   gap: 1rem;
+  position: relative;
 
   > a {
     all: unset;
@@ -21,7 +22,6 @@ const MainMenuLayout = styled.div`
       transform: scale(1.05);
     }
   }
-
 `;
 
 export { MainMenuLayout };

@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
-import { EntreesWrapper } from './PrototypeEntrees.style';
+import { EntreesTitle, EntreesWrapper } from './PrototypeEntrees.style';
 import PrototypeDish from '../../components/prototypeDish';
 
 const PrototypeEntrees = () => {
@@ -48,11 +48,14 @@ const PrototypeEntrees = () => {
   ];
 
   return (
-    <EntreesWrapper>
-      {entrees.map(entree => (
-        <PrototypeDish dish={entree}/>
-      ))}
-    </EntreesWrapper>
+    <Fragment>
+      <EntreesWrapper>
+        {entrees.map(entree => (
+          <PrototypeDish dish={entree}/>
+          ))}
+      </EntreesWrapper>
+      <EntreesTitle>ENTRADAS</EntreesTitle>
+    </Fragment>
   )
 }
 

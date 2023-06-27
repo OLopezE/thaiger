@@ -4,9 +4,17 @@ const EntreesWrapper = styled.section`
   max-height: 100vh;
   max-height: 100svh;
   overflow: scroll;
-  padding: 10rem 2rem;
+  padding: 0 2rem;
   display: grid;
   gap: 2rem;
+  position: relative;
 `;
 
-export { EntreesWrapper };
+const EntreesTitle = styled.h2`
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: 3rem;
+    right: -2rem;
+`;
+
+export { EntreesWrapper, EntreesTitle };
