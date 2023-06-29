@@ -30,7 +30,6 @@ const PrototypeDishes = () => {
       name: 'TestDish',
       description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo',
       price: 125,
-      specialIngredients: ['egg'],
       image: foodImage
     },
   ];
