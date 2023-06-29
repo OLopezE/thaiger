@@ -7,7 +7,7 @@ const PrototypeMenu = () => {
   return (
     <MainMenuLayout>
       <Link to="/entrees" >ENTRADAS</Link>
-      <Link to="/" >ENSALADAS</Link>
+      <Link to="/prototype-dishes" >ENSALADAS</Link>
       <Link to="/" >FUERTES</Link>
       <Link to="/" >POSTRES</Link>
       <Link to="/" >BEBIDAS</Link>
