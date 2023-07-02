@@ -11,8 +11,17 @@ const PrototypeDishWrapper = styled.div`
     justify-content: center;
   }
 
-  > img {
+  img {
     width: 100%;
+  }
+
+ button {
+    all: unset;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
   }
 `;
 

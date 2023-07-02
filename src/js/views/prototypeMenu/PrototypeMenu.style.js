@@ -12,14 +12,14 @@ const MainMenuLayout = styled.div`
   > a {
     all: unset;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 700;
     border-bottom: 1px solid black;
     transition: 0.2s;
 
     :hover {
       color: white;
       border-bottom: 2px solid white;
-      transform: scale(1.05);
+      transform: scale(1.02);
     }
   }
 `;
