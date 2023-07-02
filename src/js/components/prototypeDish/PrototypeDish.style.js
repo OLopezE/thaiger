@@ -9,6 +9,10 @@ const PrototypeDishWrapper = styled.div`
     gap: 1rem;
     align-items: center;
     justify-content: center;
+
+    > h3 {
+      margin: 0
+    }
   }
 
   img {
