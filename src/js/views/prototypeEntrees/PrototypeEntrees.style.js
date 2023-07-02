@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const EntreesWrapper = styled.section`
-  max-height: 100vh;
-  max-height: 100svh;
-  overflow: scroll;
+  min-height: 100vh;
+  min-height: 100svh;
+  overflow-y: auto;
   padding: 0 2rem;
   display: grid;
   gap: 2rem;
