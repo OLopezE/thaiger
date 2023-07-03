@@ -15,6 +15,7 @@ const MainMenuLayout = styled.div`
     font-weight: 700;
     border-bottom: 1px solid black;
     transition: 0.2s;
+    font-family: 'friz-bold';
 
     :hover {
       color: white;

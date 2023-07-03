@@ -11,8 +11,13 @@ const PrototypeDishWrapper = styled.div`
     justify-content: center;
 
     > h3 {
-      margin: 0
+      margin: 0;
+      font-family: 'friz-bold';
     }
+  }
+
+  > p {
+    font-family: 'friz-medium';
   }
 
   img {

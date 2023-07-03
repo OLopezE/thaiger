@@ -15,6 +15,7 @@ const EntreesTitle = styled.h2`
     transform: rotate(90deg);
     bottom: 3rem;
     right: -2rem;
+    font-family: 'friz-bold';
 `;
 
 export { EntreesWrapper, EntreesTitle };
