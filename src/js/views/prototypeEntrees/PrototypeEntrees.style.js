@@ -13,9 +13,9 @@ const EntreesTitle = styled.h2`
     position: fixed;
     transform: rotate(270deg);
     color: #ffffff52;
-    font-size: 9rem;
-    bottom: 18rem;
-    right: -19rem;
+    font-size: 7rem;
+    bottom: 15rem;
+    right: -15rem;
 `;
 
 export { EntreesWrapper, EntreesTitle };
