@@ -81,3 +81,36 @@ button:focus-visible {
   font-family: 'friz-bold';
   src: url('/assets/fonts/friz-quadrata-std-bold-587034a220f9f.woff');
 }
+
+@font-face {
+  font-family: 'american';
+  src: url('/assets/fonts/american.ttf');
+}
+
+@font-face {
+  font-family: 'Japanese3017';
+  src: url('/assets/fonts/Japanese3017.ttf');
+}
+
+@font-face {
+  font-family: 'khiara';
+  src: url('/assets/fonts/khiara.ttf');
+}
+
+@font-face {
+  font-family: 'Korean_Calligraphy';
+  src: url('/assets/fonts/Korean_Calligraphy.ttf');
+}
+
+h3 {
+  font-family: khiara !important;
+  font-size: 3rem;
+}
+
+a, h2 {
+  font-family: Japanese3017 !important;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}

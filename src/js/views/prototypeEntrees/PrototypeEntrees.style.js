@@ -4,18 +4,18 @@ const EntreesWrapper = styled.section`
   min-height: 100vh;
   min-height: 100svh;
   overflow-y: auto;
-  padding: 0 2rem;
+  padding: 10rem 2rem;
   display: grid;
-  gap: 2rem;
-  position: relative;
+  gap: 4rem;
 `;
 
 const EntreesTitle = styled.h2`
-    position: absolute;
-    transform: rotate(90deg);
-    bottom: 3rem;
-    right: -2rem;
-    font-family: 'friz-bold';
+    position: fixed;
+    transform: rotate(270deg);
+    color: #ffffff52;
+    font-size: 9rem;
+    bottom: 18rem;
+    right: -19rem;
 `;
 
 export { EntreesWrapper, EntreesTitle };

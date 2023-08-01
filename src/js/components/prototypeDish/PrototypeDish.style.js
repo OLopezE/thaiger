@@ -1,23 +1,20 @@
 import styled from "styled-components";
 
 const PrototypeDishWrapper = styled.div`
-  padding-right: 2rem;
   text-align: center;
+  display: grid;
+  gap: 1rem;
+  z-index: 1;
 
   > div {
     display: flex;
     gap: 1rem;
     align-items: center;
     justify-content: center;
-
-    > h3 {
-      margin: 0;
-      font-family: 'friz-bold';
-    }
   }
 
   > p {
-    font-family: 'friz-medium';
+    font-family: 'Korean_Calligraphy';
   }
 
   img {
