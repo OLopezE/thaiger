@@ -5,6 +5,7 @@ const PrototypeDishWrapper = styled.div`
   display: grid;
   gap: 1rem;
   z-index: 1;
+  place-items: center;
 
   > div {
     display: flex;
@@ -18,7 +19,7 @@ const PrototypeDishWrapper = styled.div`
   }
 
   img {
-    width: 100%;
+    width: 80%;
   }
 
  button {

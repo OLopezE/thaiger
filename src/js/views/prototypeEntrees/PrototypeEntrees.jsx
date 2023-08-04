@@ -2,56 +2,15 @@ import React, { Fragment } from 'react'
 
 import { EntreesTitle, EntreesWrapper } from './PrototypeEntrees.style';
 import PrototypeDish from '../../components/prototypeDish';
-import foodImage from '/assets/images/ARROZ_FRITO_VEGANO.jpg';
+import entrees from './entrees';
 
 const PrototypeEntrees = () => {
-  const entrees = [
-    {
-      name: 'Moo Pings',
-      description: 'Brochetas de pierna de cerdo a la parrilla, marinadas con cilantro y especias thai.',
-      price: 125,
-    },
-    {
-      name: 'Brochetas de camaron',
-      description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-      price: 129
-    },
-    {
-      name: 'Brochetas de camaron',
-      description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-      price: 129
-    },
-    {
-      name: 'Brochetas de camaron',
-      description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-      price: 129
-    },
-    {
-      name: 'Brochetas de camaron',
-      description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-      price: 129
-    },
-    {
-      name: 'Brochetas de camaron',
-      description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-      price: 129
-    },
-    {
-      name: 'Brochetas de camaron',
-      description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-      price: 129
-    },
-    {
-      name: 'Brochetas de camaron',
-      description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-      price: 129
-    }
-  ];
-
   return (
     <Fragment>
       <div>
         <EntreesWrapper>
+          <h1>LOGO</h1>
+
           {entrees.map(entree => (
             <PrototypeDish dish={entree}/>
             ))}

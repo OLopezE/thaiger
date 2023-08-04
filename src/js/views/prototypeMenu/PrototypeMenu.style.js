@@ -7,7 +7,6 @@ const MainMenuLayout = styled.div`
   justify-content: center;
   height: 100%;
   gap: 1rem;
-  position: relative;
 
   > a {
     all: unset;
@@ -20,7 +19,7 @@ const MainMenuLayout = styled.div`
     :hover {
       color: white;
       border-bottom: 2px solid white;
-      transform: scale(1.02);
+      transform: scale(1.01);
     }
   }
 `;

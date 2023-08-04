@@ -7,6 +7,10 @@ const EntreesWrapper = styled.section`
   padding: 10rem 2rem;
   display: grid;
   gap: 4rem;
+
+  > h1 {
+    text-align: center;
+  }
 `;
 
 const EntreesTitle = styled.h2`
