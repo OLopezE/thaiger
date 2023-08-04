@@ -8,13 +8,16 @@ const EntreesWrapper = styled.section`
   display: grid;
   gap: 4rem;
 
-  @media (min-width: 600px) {
+  @media (min-width: 1000px) {
     grid-template-columns: repeat(3, 1fr);
+
+    > h1 {
+      grid-column: span 3;
+    }
   }
 
   > h1 {
     text-align: center;
-    grid-column: span 3;
   }
 `;
 
