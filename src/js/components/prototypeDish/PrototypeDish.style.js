@@ -20,6 +20,7 @@ const PrototypeDishWrapper = styled.div`
 
   img {
     width: 80%;
+    border-radius: 1rem;
   }
 
  button {
