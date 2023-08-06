@@ -8,29 +8,37 @@ const PrototypeDishWrapper = styled.div`
   place-items: center;
 
   > div {
-    display: flex;
+    display: grid;
     gap: 1rem;
     align-items: center;
     justify-content: center;
   }
 
-  > p {
+  p {
     font-family: 'Korean_Calligraphy';
   }
 
-  img {
-    width: 80%;
-    border-radius: 1rem;
+  h3 {
+    font-size: 3.5rem;
   }
 
- button {
-    all: unset;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    cursor: pointer;
+  img {
+    width: 100%;
+  }
+
+  @media (min-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 
-export { PrototypeDishWrapper };
+const ImageContainer = styled.section`
+  width: 80%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export { PrototypeDishWrapper, ImageContainer };

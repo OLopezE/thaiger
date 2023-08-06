@@ -1,7 +1,7 @@
-import Transitioner from "./transitioner";
 import Dish from "./dish";
+import {DetailLayout} from "./layout";
 
 export {
-  Transitioner,
-  Dish
+  Dish,
+  DetailLayout
 }

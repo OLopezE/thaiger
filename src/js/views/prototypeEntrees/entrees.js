@@ -5,7 +5,7 @@ const entrees = [
     name: 'Moo Pings',
     description: 'Brochetas de pierna de cerdo a la parrilla, marinadas con cilantro y especias thai.',
     price: 125,
-    image: '/assets/images/test-image.png'
+    image: '/assets/images/COSTILLAS.jpg'
   },
   {
     name: 'Brochetas de camaron',
@@ -14,34 +14,28 @@ const entrees = [
     image: foodImage
   },
   {
-    name: 'Brochetas de camaron',
+    name: 'Panna cotta',
     description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-    price: 129
+    price: 129,
+    image: '/assets/images/PANNA_COTTA.jpg'
   },
   {
-    name: 'Brochetas de camaron',
+    name: 'Pescado capeado',
     description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-    price: 129
+    price: 129,
+    image: '/assets/images/PESCADO_CAPEADO.jpg'
   },
   {
-    name: 'Brochetas de camaron',
+    name: 'Satay Brochetas',
     description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-    price: 129
+    price: 129,
+    image: '/assets/images/SATAY_BROCHETAS.jpg'
   },
   {
-    name: 'Brochetas de camaron',
+    name: 'Vegetales tempura',
     description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-    price: 129
-  },
-  {
-    name: 'Brochetas de camaron',
-    description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-    price: 129
-  },
-  {
-    name: 'Brochetas de camaron',
-    description: 'Brochetas de camaron empanizadas con panko y coco, acompañadas de aderezo de cacahuate tostado y limon',
-    price: 129
+    price: 129,
+    image: '/assets/images/VEGETALES_TEMPURA.jpg'
   }
 ];
 

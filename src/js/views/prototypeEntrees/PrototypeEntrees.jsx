@@ -1,12 +1,14 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import { EntreesTitle, EntreesWrapper } from './PrototypeEntrees.style';
 import PrototypeDish from '../../components/prototypeDish';
 import entrees from './entrees';
 
+import { DetailLayout } from '../../components';
+
 const PrototypeEntrees = () => {
   return (
-    <Fragment>
+    <DetailLayout>
       <div>
         <EntreesWrapper>
           <h1>LOGO</h1>
@@ -18,7 +20,7 @@ const PrototypeEntrees = () => {
       </div>
 
       <EntreesTitle>ENTRADAS</EntreesTitle>
-    </Fragment>
+    </DetailLayout>
   )
 }
 

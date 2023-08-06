@@ -8,8 +8,9 @@ const Prototype = () => {
   return (
     <Routes>
       <Route path="/" element={<PrototypeMenu />} />
-      <Route path="/entrees" element={<PrototypeEntrees />} />
-      <Route path="/prototype-dishes" element={<PrototypeDishes />} />
+      <Route path="/menu" element={<PrototypeEntrees />} />
+      {/* <Route path="/prototype-dishes" element={<PrototypeDishes />} /> */}
+      <Route path="*" element={<PrototypeMenu />} />
     </Routes>
   )
 }
